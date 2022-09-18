@@ -1,0 +1,138 @@
+{
+    "packages": [
+        {
+            "name": "dingedi/dingedi-pstools",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dingedi/dingedi-pstools.git",
+                "reference": "f2ca38c87e2286f8d27269957b9fc60d4ab4a1bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dingedi/dingedi-pstools/zipball/f2ca38c87e2286f8d27269957b9fc60d4ab4a1bb",
+                "reference": "f2ca38c87e2286f8d27269957b9fc60d4ab4a1bb",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7.27"
+            },
+            "time": "2022-05-25T19:50:19+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Dingedi\\PsTools\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sébastien THURET",
+                    "email": "contact@sebastien-thuret.fr"
+                }
+            ],
+            "description": "Dingedi PrestaShop Tools",
+            "support": {
+                "source": "https://github.com/dingedi/dingedi-pstools/tree/main",
+                "issues": "https://github.com/dingedi/dingedi-pstools/issues"
+            },
+            "install-path": "../dingedi/dingedi-pstools"
+        },
+        {
+            "name": "dingedi/dingedi-pstranslationsapi",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dingedi/dingedi-pstranslationsapi.git",
+                "reference": "93dd93c718fd4df50e5427b73d103a9f241f9247"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dingedi/dingedi-pstranslationsapi/zipball/93dd93c718fd4df50e5427b73d103a9f241f9247",
+                "reference": "93dd93c718fd4df50e5427b73d103a9f241f9247",
+                "shasum": ""
+            },
+            "require": {
+                "dingedi/dingedi-pstools": "dev-main",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7.27"
+            },
+            "time": "2022-05-26T14:18:10+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Dingedi\\PsTranslationsApi\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sébastien THURET",
+                    "email": "contact@sebastien-thuret.fr"
+                }
+            ],
+            "description": "Dingedi PrestaShop Translations",
+            "support": {
+                "source": "https://github.com/dingedi/dingedi-pstranslationsapi/tree/main",
+                "issues": "https://github.com/dingedi/dingedi-pstranslationsapi/issues"
+            },
+            "install-path": "../dingedi/dingedi-pstranslationsapi"
+        },
+        {
+            "name": "dingedi/dingedi-tablestranslation",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dingedi/dingedi-tablestranslation.git",
+                "reference": "eccb6ed91803ecfd890a590837ce8b2e2bb9d0d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dingedi/dingedi-tablestranslation/zipball/eccb6ed91803ecfd890a590837ce8b2e2bb9d0d3",
+                "reference": "eccb6ed91803ecfd890a590837ce8b2e2bb9d0d3",
+                "shasum": ""
+            },
+            "require": {
+                "dingedi/dingedi-pstools": "dev-main",
+                "dingedi/dingedi-pstranslationsapi": "dev-main",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7.27"
+            },
+            "time": "2022-05-26T14:35:17+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Dingedi\\TablesTranslation\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sébastien THURET",
+                    "email": "contact@sebastien-thuret.fr"
+                }
+            ],
+            "description": "Dingedi Tables Translation",
+            "support": {
+                "source": "https://github.com/dingedi/dingedi-tablestranslation/tree/main",
+                "issues": "https://github.com/dingedi/dingedi-tablestranslation/issues"
+            },
+            "install-path": "../dingedi/dingedi-tablestranslation"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

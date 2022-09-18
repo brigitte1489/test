@@ -1,0 +1,5 @@
+services:
+  dingedi.dgtranslationall.translate:
+    class: Dingedi\Dgtranslationall\Command\TranslateCommand
+    tags:
+      - { name: 'console.command' }
